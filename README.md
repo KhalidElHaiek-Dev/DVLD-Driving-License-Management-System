@@ -49,12 +49,12 @@ This project requires a SQL Server database named `DVLD`.
 The repository includes a database backup file:
 
 ```text
-database/DVLD.bak
+database/DVLD_GitHub.bak
 ```
 
 Before running the application:
 
-1. Restore `database/DVLD.bak` in SQL Server Management Studio.
+1. Restore `database/DVLD_GitHub.bak` in SQL Server Management Studio.
 2. Restore it with the database name `DVLD`.
 3. Update the connection string in:
 
@@ -65,7 +65,7 @@ DVLD_DataAccess/clsDataAccessSettings.cs
 Example connection string:
 
 ```csharp
-public static string ConnectionString = "Server=.;Database=DVLD;Integrated Security=True;";
+public static string ConnectionString = "Server=.;Database=DVLD_GitHub;Integrated Security=True;";
 ```
 
 ## Screenshots
