@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.rsuser
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled files
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.copycomplete
+
+# NuGet packages
+packages/
+*.nupkg
+
+# OS files
+Thumbs.db
+Desktop.ini
