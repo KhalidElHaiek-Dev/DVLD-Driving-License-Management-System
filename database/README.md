@@ -4,7 +4,7 @@ This folder contains the SQL Server database backup for the DVLD project.
 
 ## Included file
 
-- `DVLD.bak` - SQL Server backup file for the `DVLD` database.
+- `DVLD_GitHub.bak` - SQL Server backup file for the `DVLD` database.
 
 ## Restore instructions
 
@@ -12,7 +12,7 @@ This folder contains the SQL Server database backup for the DVLD project.
 2. Right-click `Databases`.
 3. Choose `Restore Database...`.
 4. Select `Device`.
-5. Browse and select `DVLD.bak`.
+5. Browse and select `DVLD_GitHub`.
 6. Restore the database with the name `DVLD`.
 7. Update the connection string in:
 
